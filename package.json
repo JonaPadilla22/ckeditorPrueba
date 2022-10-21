@@ -1,0 +1,32 @@
+{
+  "name": "ckeditor5",
+  "version": "1.0.0",
+  "description": "implementing ckEditor with react",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.2.1",
+    "@ckeditor/ckeditor5-ckfinder": "^35.2.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "@ckeditor/ckeditor5-upload": "^35.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.19.4",
+    "ckeditor5-image-remove-event-callback-plugin": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
